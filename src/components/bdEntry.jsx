@@ -12,7 +12,6 @@ class BdEntry extends Component {
 
   renderEntry = () => {
       var data = Array.from(this.props.entry);
-      console.log(this.props.entry);
       return Object.keys(this.props.entry).map(e => <td key={e}>{this.props.entry[e]}</td>);
   };
 }

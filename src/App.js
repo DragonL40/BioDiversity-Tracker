@@ -19,7 +19,7 @@ function App() {
             <Route path="/table-display">
               <TablePage/> 
             </Route>
-            <Route path="/path2">
+            <Route path="/entry-form">
               <EntryForm/>
             </Route>
           </Switch>

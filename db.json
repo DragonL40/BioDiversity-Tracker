@@ -1,6 +1,7 @@
 {
   "posts": [
     {
+      "id": "1",
       "date": "mm-dd-yy",
       "location": "China",
       "species": "Dog",
@@ -11,26 +12,7 @@
       "sym and num and str": "DaVId !2@41#*0&9"
     },
     {
-      "date": "mm-dd-yy",
-      "location": "America",
-      "species": "Pig",
-      "parameters": "smt",
-      "more param": "smt else",
-      "numbers": "999",
-      "symbols": ")",
-      "sym and num and str": "7tg29r32hi1&*("
-    },
-    {
-      "date": "mm-dd-yy",
-      "location": "America",
-      "species": "Pig",
-      "parameters": "smt",
-      "more param": "smt else",
-      "numbers": "999",
-      "symbols": ")",
-      "sym and num and str": "7tg29r32hi1&*("
-    },
-    {
+      "id": "2",
       "date": "mm-dd-yy",
       "location": "America",
       "species": "Pig",

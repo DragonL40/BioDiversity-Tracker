@@ -13,28 +13,27 @@ class EntryForm extends Component {
     this.setState({
       [event.target.name]: event.target.value,
     });
-  }
+  };
 
   handleSubmit = (event) => {
+    event.preventDefault();
     alert(
       "an entry has been submitted: location-" +
         this.state.location +
         " species-" +
         this.state.species
     );
-
-
-    event.preventDefault();
-  }
+  };
 
   render() {
+    const { location, species } = this.state;
     return (
       <form onSubmit={this.handleSubmit}>
         <label>
           Location:
           <input
             type="text"
-            value={this.state.location}
+            value={location}
             onChange={this.handleChange}
             name="location"
           />
@@ -44,12 +43,12 @@ class EntryForm extends Component {
           Species:
           <input
             type="text"
-            value={this.state.species}
+            value={species}
             onChange={this.handleChange}
             name="species"
           />
         </label>
-        <input type="submit" value="submit" />
+        <button type="submit" value="submit" />
       </form>
     );
   }

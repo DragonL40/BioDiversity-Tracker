@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import BdHeading from "./bdHeading";
 import BdEntries from "./bdEntries";
-import entry from "./data.json";
+import entry from "C:/Users/Helen/my-app/src/data/data.json";
 import axios from "axios";
 
 class Bdtable extends Component {

@@ -14,10 +14,10 @@ function App() {
           <NavBar />
           <Switch>
             <Route exact path="/">
-              <HomePage/>
+              <HomePage />
             </Route>
             <Route path="/table-display">
-              <TablePage/> 
+              <TablePage />
             </Route>
             <Route path="/entry-form">
               <EntryForm/>
